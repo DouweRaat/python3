@@ -5,7 +5,7 @@ while True:
     if getal == "add":
         addkey = input("Key: ")
         addvalue = input("Value: ")
-        getallen[key] = value
+        getallen[addkey] = addvalue
     elif getal == "delete":
         deletekey = input("Key: ")
         if deletekey in getallen:
