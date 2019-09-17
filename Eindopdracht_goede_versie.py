@@ -40,9 +40,11 @@ def verwijderen(boodschappenlijstje):
         print("Dit product bestaat niet.")
 
 def showall(boodschappenlijstje):
-    print("\n")
-    for key, value in boodschappenlijstje.items():
-        print(key, value)
+    if boodschappenlijstje == {}:
+        print("\nEr staat niks in het boodschappenlijstje.")
+    else:
+        for key, value in boodschappenlijstje.items():
+            print("\n", key, value)
 
 def quitprogram(boodschappenlijstje):
     with open('Eindopdrachttext.txt', 'w') as f:
