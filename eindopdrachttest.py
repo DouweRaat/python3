@@ -25,7 +25,7 @@ def main(boodschappenlijstje):
             quitprogram(boodschappenlijstje)
             close = True
         else:
-            print("\nVoer één van de aangegeven toetsen in.\n")
+            print("\nVoer één van de aangegeven toetsen in.")
 
 def toevoegen(boodschappenlijstje):
     addkey = input("\nProduct: ")
